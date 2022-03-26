@@ -1,0 +1,16 @@
+file formats : 
+
+//pacan_*.steps:
+A char that indicats which object conduct the move:
+P-pacman, G 0 -ghost one and so on until ghost 4 if exist, Fi-fruit appear/Fx-fruit disappear and two integers that separates by space for cords on board
++ space char
+ + char the indicates which direction he moved
+!! all in one line!!
+
+  i.e :P L P L G 0 D G 1 L G 2 U P L P L G 0 D G 1 D G 2 U P R P R Fi 13 10 7
+   G 0 R G 1 D G 2 R P R P L F L G 0 R G 1 U G 2 R P L P L G 0 R G 1 D G 2 R P L P U G 0 D G 1 L G 2 R P U P U G 0 R G 1 L G 2 R P U P U G 0 D G 1 D G 2 U P L Fx
+ 
+
+// pacman_*.result
+ "F: " means screen finished and X integer means steps until finished (i.e: F: 64)
+  or "D: " means death and Y integer means steps until death (i.e: D: 84)
